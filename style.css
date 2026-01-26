@@ -21,7 +21,7 @@
 
 .main-content {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     gap: 20px;
@@ -35,7 +35,7 @@ li {
     list-style: none;
 }
 
-.projects {
+.cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
@@ -45,6 +45,15 @@ li {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-left: 5px solid #f0b429;
+}
+
+.side-panel {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
 }
