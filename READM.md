@@ -19,7 +19,7 @@ A responsive admin dashboard layout built with CSS Grid.
 - Responsive card layouts using auto-fit
 
 ## Live Demo
-[View Project](https://yourusername.github.io/admin-dashboard)
+[View Project](https://github.com/LJDJGC/admin-dashboard-project-top)
 
 ## Future Improvements
 - Add Material Design Icons
